@@ -1,4 +1,5 @@
-te": "blueliv-*",
+{
+    "template": "blueliv-*",
     "settings" : {
         "index.refresh_interval": "5s"
     },
