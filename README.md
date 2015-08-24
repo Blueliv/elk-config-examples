@@ -4,7 +4,7 @@ This is a repository that contains Blueliv's stock configurations for Elasticsea
 
 ## Documentation
 
-Documentation on how to set-up your environment and start using Blueliv's data feeds are available [here](https://github.com/blueliv/elk-config-examples/documentation.pdf).
+Documentation on how to set-up your environment and start using Blueliv's data feeds are available [here](https://github.com/Blueliv/elk-config-examples/blob/master/documentation.pdf).
 
 ## Minimum Requirements
 
