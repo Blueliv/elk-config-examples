@@ -5,7 +5,6 @@
     },
     "mappings": {
         "_default_": {
-            "_source": { "compress": true },
             "dynamic_templates": [
                 {
                     "message_field": {
@@ -43,8 +42,19 @@
              },
              "properties" : {
                 "location": {
-                    "dynamic": true,
                     "type": "geo_point"
+                },
+                "lastSeenAt": {
+                  "type": "date",
+                  "format": "yyyy-MM-dd'T'HH:mm:ssZ"
+                },
+                "firstSeenAt": {
+                  "type": "date",
+                  "format": "yyyy-MM-dd'T'HH:mm:ssZ"
+                },
+                "updatedAt": {
+                  "type": "date",
+                  "format": "yyyy-MM-dd'T'HH:mm:ssZ"
                 },
                 "@version": {
                     "index": "not_analyzed",
@@ -54,5 +64,3 @@
         }
     }
 }
-
-
