@@ -41,7 +41,7 @@
                  "enabled": true
              },
              "properties" : {
-                "location": {
+               "location": {
                     "type": "geo_point"
                 },
                 "lastSeenAt": {
@@ -59,6 +59,34 @@
                 "@version": {
                     "index": "not_analyzed",
                     "type": "string"
+                }
+            }
+        },
+        "blueliv-attacks":{
+            "properties":{
+                "firstEvent": {
+                    "type": "date",
+                    "format": "yyyy-MM-dd'T'HH:mm:ssZ"
+                },
+                "lastEvent": {
+                    "type": "date",
+                    "format": "yyyy-MM-dd'T'HH:mm:ssZ"
+                },
+                "source":{
+                    "type": "object",
+                    "properties":{
+                        "ip":{
+                          "type": "ip"
+                        }
+                    }
+                }
+            }
+        },
+        "blueliv-malwares":{
+            "properties":{
+                "analyzedAt": {
+                    "type": "date",
+                    "format": "yyyy-MM-dd'T'HH:mm:ssZ"
                 }
             }
         }
