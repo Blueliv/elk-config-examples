@@ -11,7 +11,6 @@ Documentation on how to set-up your environment and start using Blueliv's data f
 - Logstash >= 1.5.0
 - Elasticsearch >= 2.6.0
 - Kibana >=4.6.0
-For ElasticSearch version between 2.4.0 and  2.6.0 please check master branch  [here](https://github.com/Blueliv/elk-config-examples/tree/master)
 
 For ElasticSearch version between 2.4.0 and  2.6.0 please check master branch  [here](https://github.com/Blueliv/elk-config-examples/tree/master)
 
