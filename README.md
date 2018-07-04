@@ -12,7 +12,7 @@ Documentation on how to set-up your environment and start using Blueliv's data f
 - Elasticsearch >= 2.4.0
 - Kibana >=4.6.0
 
-For ElasticSearch version 2.6.0 please check master branch  [ES-6.3.0-compatible](https://github.com/Blueliv/elk-config-examples/tree/ES-6.3.0-compatible)
+For ElasticSearch version >= 6.0.0 please check master branch  [ES-6.3.0-compatible](https://github.com/Blueliv/elk-config-examples/tree/ES-6.3.0-compatible)
 
 ## Need Help?
 
