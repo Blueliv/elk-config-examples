@@ -263,7 +263,7 @@ upload it you nshould make a REST call to the following Elasticsearch
 endpoint. You may use curl to do it. If you save our template (3.2) as
 template.json, you could just run the following command:
 
-`curl -XPUT localhost:9200/_template/blueliv -d @template.json`
+`curl -XPUT -H 'Content-Type: application/json' localhost:9200/_template/blueliv -d @template.json`
 
 ```
 {
