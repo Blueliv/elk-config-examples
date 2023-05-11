@@ -1,3 +1,4 @@
+# This repositoy is deprecated and has been archived. Please contact customer support if you need help.
 # ELK stack configuration Examples
 
 This is a repository that contains Blueliv's stock configurations for Elasticsearch, Logstash and Kibana (ELK). Setting-up ELK stack with these configurations will allow you to take advantage of Blueliv's cyber-threat intelligence faster.
